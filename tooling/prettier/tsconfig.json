@@ -1,0 +1,8 @@
+{
+    "extends": "@theproject/tsconfig/base.json",
+    "compilerOptions": {
+        "tsBuildInfoFile": "node_modules/.cashe/tsbuildinfo.json"
+    },
+    "include": ["."],
+    "exclude": ["node_modules"]
+}
